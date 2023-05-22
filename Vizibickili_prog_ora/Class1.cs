@@ -26,5 +26,10 @@ namespace Vizibickili_prog_ora
             this.VPerc = Convert.ToInt32(darabok[5]);
 
         }
+
+        public int Atvalt(int ora, int perc)
+        {
+            return ora * 60 + perc;
+        }
     }
 }
