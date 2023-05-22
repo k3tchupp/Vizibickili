@@ -10,6 +10,7 @@ namespace Vizibickili_prog_ora
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("elso mentes");
         }
     }
 }
